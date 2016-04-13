@@ -22,6 +22,7 @@
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
 CakePlugin::load('DebugKit');
+CakePlugin::load('Usermgmt', array('routes' => true, 'bootstrap' => true));
 // Setup a 'default' cache configuration for use in the application.
 Cache::config('default', array('engine' => 'File'));
 
