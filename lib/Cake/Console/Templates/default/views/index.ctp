@@ -15,7 +15,7 @@
  */
 ?>
 <div class="<?php echo $pluralVar; ?> index">
-	<h2><?php echo "<?php echo __('{$pluralHumanName}'); ?>"; ?></h2>
+	<h2>Test-<?php echo "<?php echo __('{$pluralHumanName}'.'-lokalini'); ?>"; ?></h2>
 	<table cellpadding="0" cellspacing="0">
 	<thead>
 	<tr>
