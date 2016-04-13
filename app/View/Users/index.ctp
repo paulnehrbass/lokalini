@@ -1,4 +1,5 @@
 <div class="users index">
+	<h1>Lokalini</h1>
 	<h2><?php echo __('Users'); ?></h2>
 	<table cellpadding="0" cellspacing="0">
 	<thead>
