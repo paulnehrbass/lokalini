@@ -9,6 +9,10 @@
 	</script>
 	<?php
 		echo $this->Html->meta('icon');
+		/*cakephp default layout -> later change by lokalini layout. 
+		 * Neccessary to avoid the message url-rewriting from home-page*/
+		echo $this->Html->css('cake.generic');
+		
 		/* Bootstrap CSS */
 		echo $this->Html->css('bootstrap.css?q='.QRDN);
 		
