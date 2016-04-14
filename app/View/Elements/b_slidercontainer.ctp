@@ -3,7 +3,7 @@
 		<ul>
 			<li data-transition="slotfade-vertical" data-slotamount="7">
 				<div class="tp-bannertimer"></div> <img data-retina
-				src="img/slider/slider-education.jpg">
+				src="/img/slider/slider-education.jpg">
 				<div class="caption lft caption-left" data-x="left" data-y="150"
 					data-hoffset="60" data-speed="700" data-start="2000">
 					<div
@@ -26,7 +26,7 @@
 			</li>
 			<li data-transition="slotfade-vertical" data-slotamount="7">
 				<div class="tp-bannertimer"></div> <img data-retina
-				src="img/slider/slider-ed-1.jpg">
+				src="/img/slider/slider-ed-1.jpg">
 				<div class="caption lft caption-left" data-x="left" data-y="150"
 					data-hoffset="60" data-speed="700" data-start="2000">
 					<div
@@ -49,7 +49,7 @@
 			</li>
 			<li data-transition="slotfade-vertical" data-slotamount="7">
 				<div class="tp-bannertimer"></div> <img data-retina
-				src="img/slider/slider-ed-2.jpg">
+				src="/img/slider/slider-ed-2.jpg">
 				<div class="caption lft caption-left" data-x="left" data-y="150"
 					data-hoffset="60" data-speed="700" data-start="2000">
 					<div

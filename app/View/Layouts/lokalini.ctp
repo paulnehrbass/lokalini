@@ -22,7 +22,7 @@ $lokaliniVersion = __d ( 'cake_dev', 'CakePHP %s', Configure::version () )?>
 	 */
 	
 	// CakePHP
-	echo $this->Html->css ( 'cake.generic' );
+	//echo $this->Html->css ( 'cake.generic' );
 	
 	// frexy (css)
 	echo $this->Html->css ( 'http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css' );
