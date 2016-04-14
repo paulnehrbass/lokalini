@@ -45,6 +45,10 @@ class AppController extends Controller {
 		}
 		return parent::paginate($object, $scope, $whitelist);
 	}
+	function beforeRender(){
+		parent::beforeRender();
+		$this->layout = 'lokalini';
+	}
 	function beforeFilter() {
 		//$this->layout = 'usermgmt';
 		$this->userAuth();
