@@ -118,13 +118,13 @@ $lokaliniVersion = __d ( 'cake_dev', 'CakePHP %s', Configure::version () )?>
 	<?php echo $this->element('b_header');?>
 	<div class="j-menu-container"></div>
 
+	<?php echo $this->element('b_inner_page_header');?>
 	<div class="l-main-container">
 			<?php if ($this->UserAuth->isLogged ()) {
 					echo $this->element ( 'Usermgmt.dashboard' );
 				}?>
 			<?php echo $this->element('Usermgmt.message'); ?>
 			<?php echo $this->element('Usermgmt.message_validation'); ?>
-			
 			<?php echo $this->fetch('content'); ?>
 		<!-- b-slidercontainer -->
 		<!-- b-bg-full-primary -->
