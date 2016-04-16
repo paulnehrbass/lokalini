@@ -30,15 +30,16 @@ $actName = $this->params['action'];
 $actionUrl = $contName.'/'.$actName;
 $activeClass='active';
 $inactiveClass='';
-?>
+?>	
 <div class="dashboard-menu">
 	<div class="navbar navbar-default" role="navigation">
 		<div class="collapse navbar-collapse">
 			<ul class="nav navbar-nav">
 			<?php
-				echo "<li class='".(($actionUrl=='Users/dashboard') ? $activeClass : $inactiveClass)."'>".$this->Html->link(__('Dashboard'), array('controller'=>'Users', 'action'=>'dashboard', 'plugin'=>'usermgmt'))."</li>";
+				
 				if($this->UserAuth->isLogged()) {
 					if($this->UserAuth->isAdmin()) {
+						echo "<li class='".(($actionUrl=='Users/dashboard') ? $activeClass : $inactiveClass)."'>".$this->Html->link(__('Dashboard'), array('controller'=>'Users', 'action'=>'dashboard', 'plugin'=>'usermgmt'))."</li>";
 						echo "<li class='dropdown'>";
 							echo $this->Html->link(__('Users').' <b class="caret"></b>', '#', array('escape'=>false, 'class'=>'dropdown-toggle', 'data-toggle'=>'dropdown'));
 							echo "<ul class='dropdown-menu'>";
